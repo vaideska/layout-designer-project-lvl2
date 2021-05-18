@@ -1,0 +1,39 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 99px 314px 1fr;
+  align-items: center;
+
+  font-size: 11px;
+  text-transform: uppercase;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    li {
+      list-style-type: none;
+    }
+  }
+
+  input {
+    width: 248px;
+  }
+
+}

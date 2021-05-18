@@ -1,0 +1,34 @@
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: $color-dark-gray;
+  background-color: $color-black;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+
+  @media (max-width: 414px) {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+
+  @media (max-width: 414px) {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
